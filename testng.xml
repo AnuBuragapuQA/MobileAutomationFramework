@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" name="Suite" parallel="tests">
+<listeners>
+<listener class-name="utilities.ExtentReportManager"/>
+</listeners>
+  <!-- <test name="AndroidDeviceTest">
+  <parameter name="deviceName" value="emulator-5556"/>
+  <parameter name="systemPort" value="8200"/>
+    <classes>
+      <class name="testCases.LaunchApp"/>
+      <class name="testBase.BaseClass"/>
+      <class name="testCases.LetsShop"/>
+      <class name="testCases.CompletePurchase"/>
+      <class name="testCases.AddToCart"/>
+      <class name="testCases.TermsAndConditions"/>
+      <class name="testCases.ValidateToastMessage"/>
+      <class name="testCases.ShopSelectingCountry"/>
+    </classes>
+  </test> Test -->
+  
+  <test name="AndroidDeviceTest2">
+  <parameter name="deviceName" value="emulator-5554"/>
+  <parameter name="systemPort" value="8201"/>
+    <classes>
+      <class name="testCases.LaunchApp"/>
+      <class name="testBase.BaseClass"/>
+      <class name="testCases.LetsShop"/>
+      <class name="testCases.CompletePurchase"/>
+      <class name="testCases.AddToCart"/>
+      <class name="testCases.TermsAndConditions"/>
+      <class name="testCases.ValidateToastMessage"/>
+      <class name="testCases.ShopSelectingCountry"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

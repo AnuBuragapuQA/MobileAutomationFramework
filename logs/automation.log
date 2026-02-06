@@ -1,0 +1,584 @@
+2026-02-05 12:43:30 DEBUG BaseClass:32 - ========== Appium Configuration Started ==========
+2026-02-05 12:43:30 DEBUG BaseClass:35 - Setting UiAutomator2Options
+2026-02-05 12:43:30 DEBUG BaseClass:38 - Setting systemPort: 8201
+2026-02-05 12:43:30 DEBUG BaseClass:41 - Setting deviceName: emulator-5554
+2026-02-05 12:43:30 DEBUG BaseClass:44 - Setting application path
+2026-02-05 12:43:30 DEBUG BaseClass:48 - Initializing AndroidDriver
+2026-02-05 12:45:31 ERROR BaseClass:68 - Unexpected error during Appium configuration
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Cannot start the 'com.androidsample.generalstore' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.androidsample.generalstore.SplashActivity' never started. Consider checking the driver's troubleshooting documentation. 
+Host info: host: 'ANU_COMPUTER', ip: '192.168.1.225'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\anu11\myeclipse-wo..., appium:automationName: UIAutomator2, appium:deviceName: emulator-5554, appium:systemPort: 8201, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\anu11\myeclipse-wo..., appium:automationName: UIAutomator2, appium:deviceName: emulator-5554, appium:systemPort: 8201, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:209)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:195)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
+	at testBase.BaseClass.ConfigureAppium(BaseClass.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-05 12:45:31 DEBUG BaseClass:32 - ========== Appium Configuration Started ==========
+2026-02-05 12:45:31 DEBUG BaseClass:35 - Setting UiAutomator2Options
+2026-02-05 12:45:31 DEBUG BaseClass:38 - Setting systemPort: 8201
+2026-02-05 12:45:31 DEBUG BaseClass:41 - Setting deviceName: emulator-5554
+2026-02-05 12:45:31 DEBUG BaseClass:44 - Setting application path
+2026-02-05 12:45:31 DEBUG BaseClass:48 - Initializing AndroidDriver
+2026-02-05 12:45:56 DEBUG BaseClass:54 - Setting implicit wait
+2026-02-05 12:45:56 DEBUG BaseClass:57 - AndroidDriver initialized successfully
+2026-02-05 12:45:56 DEBUG BaseClass:72 - ========== Appium Configuration Completed ==========
+2026-02-05 12:45:56 DEBUG LetsShop:20 - ========== LetsShop Test Started ==========
+2026-02-05 12:45:56 DEBUG LetsShop:23 - Initializing HomePage
+2026-02-05 12:45:58 DEBUG LetsShop:26 - Entering name on Home Page
+2026-02-05 12:46:03 DEBUG LetsShop:29 - Clicking on 'Let's Shop' button
+2026-02-05 12:46:05 DEBUG LetsShop:32 - Initializing ProductPage
+2026-02-05 12:46:05 DEBUG LetsShop:35 - Fetching Product Page title
+2026-02-05 12:46:08 DEBUG LetsShop:37 - Product Page title received: Products
+2026-02-05 12:46:08 DEBUG LetsShop:42 - Assertion Passed: Product page launched successfully
+2026-02-05 12:46:08 DEBUG LetsShop:53 - ========== LetsShop Test Completed ==========
+2026-02-05 12:46:08 DEBUG BaseClass:77 - ========== Tear Down Started ==========
+2026-02-05 12:46:08 DEBUG BaseClass:81 - Quitting AndroidDriver
+2026-02-05 12:46:19 DEBUG BaseClass:88 - ========== Tear Down Completed ==========
+2026-02-05 12:46:19 DEBUG BaseClass:32 - ========== Appium Configuration Started ==========
+2026-02-05 12:46:19 DEBUG BaseClass:35 - Setting UiAutomator2Options
+2026-02-05 12:46:19 DEBUG BaseClass:38 - Setting systemPort: 8201
+2026-02-05 12:46:19 DEBUG BaseClass:41 - Setting deviceName: emulator-5554
+2026-02-05 12:46:19 DEBUG BaseClass:44 - Setting application path
+2026-02-05 12:46:19 DEBUG BaseClass:48 - Initializing AndroidDriver
+2026-02-05 12:46:56 DEBUG BaseClass:54 - Setting implicit wait
+2026-02-05 12:46:56 DEBUG BaseClass:57 - AndroidDriver initialized successfully
+2026-02-05 12:46:56 DEBUG BaseClass:72 - ========== Appium Configuration Completed ==========
+2026-02-05 12:46:56 DEBUG CompletePurchase:24 - ========== completePurchaseTest Started ==========
+2026-02-05 12:46:56 DEBUG CompletePurchase:27 - Initializing HomePage
+2026-02-05 12:46:56 DEBUG CompletePurchase:30 - Entering user name
+2026-02-05 12:47:02 DEBUG CompletePurchase:33 - Clicking on 'Let's Shop' button
+2026-02-05 12:47:04 DEBUG CompletePurchase:36 - Initializing ProductPage
+2026-02-05 12:47:04 DEBUG CompletePurchase:39 - Scrolling to product: Jordan 6 Rings
+2026-02-05 12:47:23 DEBUG CompletePurchase:42 - Adding product to cart
+2026-02-05 12:47:25 DEBUG CompletePurchase:45 - Navigating to Cart page
+2026-02-05 12:47:25 DEBUG CompletePurchase:48 - Initializing CartPage
+2026-02-05 12:47:26 DEBUG CompletePurchase:51 - Clicking Terms & Conditions checkbox
+2026-02-05 12:47:29 DEBUG CompletePurchase:54 - Clicking on 'Visit to Web' button
+2026-02-05 12:47:32 DEBUG CompletePurchase:57 - Waiting for WebView to load
+2026-02-05 12:48:02 DEBUG CompletePurchase:60 - Initializing FinalPurchasePage
+2026-02-05 12:48:03 DEBUG CompletePurchase:63 - Fetching available contexts
+2026-02-05 12:48:08 DEBUG CompletePurchase:67 - Available context: NATIVE_APP
+2026-02-05 12:48:08 DEBUG CompletePurchase:67 - Available context: WEBVIEW_com.androidsample.generalstore
+2026-02-05 12:48:08 DEBUG CompletePurchase:72 - Switching to WEBVIEW
+2026-02-05 12:48:09 ERROR CompletePurchase:76 - Failed to switch to WEBVIEW
+io.appium.java_client.NoSuchContextException: No Chromedriver found that can automate Chrome '133.0.6943'. You could also try to enable automated chromedrivers download as a possible workaround.
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d330cb10-c447-48ea-ac25-dedc3b665580, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: C:\Users\anu11\myeclipse-wo..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\anu11\myeclipse-wo..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 136, appium:systemPort: 8201, appium:takesScreenshot: true, appium:viewportRect: {height: 2264, left: 0, top: 136, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: d330cb10-c447-48ea-ac25-dedc3b665580
+	at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:47)
+	at pageObjects.BasePage.switchContext(BasePage.java:62)
+	at testCases.CompletePurchase.completePurchaseTest(CompletePurchase.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.WebDriverException: No Chromedriver found that can automate Chrome '133.0.6943'. You could also try to enable automated chromedrivers download as a possible workaround.
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d330cb10-c447-48ea-ac25-dedc3b665580, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: C:\Users\anu11\myeclipse-wo..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\anu11\myeclipse-wo..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 136, appium:systemPort: 8201, appium:takesScreenshot: true, appium:viewportRect: {height: 2264, left: 0, top: 136, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: d330cb10-c447-48ea-ac25-dedc3b665580
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:225)
+	at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:44)
+	... 22 more
+2026-02-05 12:48:09 WARN  RetryAnalyzer:18 - Retrying test 'completePurchaseTest' (1 of 2)
+2026-02-05 12:48:09 DEBUG CompletePurchase:24 - ========== completePurchaseTest Started ==========
+2026-02-05 12:48:09 DEBUG CompletePurchase:27 - Initializing HomePage
+2026-02-05 12:48:09 DEBUG CompletePurchase:30 - Entering user name
+2026-02-05 12:48:20 ERROR CompletePurchase:97 - Unexpected exception occurred in completePurchaseTest
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:74)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$hwngUK8J.sendKeys(Unknown Source)
+	at pageObjects.HomePage.enterName(HomePage.java:52)
+	at testCases.CompletePurchase.completePurchaseTest(CompletePurchase.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@285607e3
+(tried for 10 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:276)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	... 25 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:207)
+	... 27 more
+2026-02-05 12:48:20 WARN  RetryAnalyzer:18 - Retrying test 'completePurchaseTest' (2 of 2)
+2026-02-05 12:48:20 DEBUG CompletePurchase:24 - ========== completePurchaseTest Started ==========
+2026-02-05 12:48:20 DEBUG CompletePurchase:27 - Initializing HomePage
+2026-02-05 12:48:20 DEBUG CompletePurchase:30 - Entering user name
+2026-02-05 12:48:30 ERROR CompletePurchase:97 - Unexpected exception occurred in completePurchaseTest
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:74)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$hwngUK8J.sendKeys(Unknown Source)
+	at pageObjects.HomePage.enterName(HomePage.java:52)
+	at testCases.CompletePurchase.completePurchaseTest(CompletePurchase.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@66516791
+(tried for 10 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:276)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	... 25 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:207)
+	... 27 more
+2026-02-05 12:48:30 DEBUG BaseClass:94 - Capturing screenshot for test: completePurchaseTest
+2026-02-05 12:48:30 ERROR BaseClass:112 - Failed to capture screenshot for test: completePurchaseTest
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+	at testBase.BaseClass.captureScreen(BaseClass.java:100)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:78)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-05 12:48:30 DEBUG BaseClass:94 - Capturing screenshot for test: completePurchaseTest
+2026-02-05 12:48:30 ERROR BaseClass:112 - Failed to capture screenshot for test: completePurchaseTest
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+	at testBase.BaseClass.captureScreen(BaseClass.java:100)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:78)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1013)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-05 12:48:30 DEBUG BaseClass:77 - ========== Tear Down Started ==========
+2026-02-05 12:48:30 DEBUG BaseClass:81 - Quitting AndroidDriver
+2026-02-05 12:48:38 DEBUG BaseClass:88 - ========== Tear Down Completed ==========
+2026-02-05 14:29:29 DEBUG BaseClass:32 - ========== Appium Configuration Started ==========
+2026-02-05 14:29:29 DEBUG BaseClass:35 - Setting UiAutomator2Options
+2026-02-05 14:29:29 DEBUG BaseClass:38 - Setting systemPort: 8201
+2026-02-05 14:29:29 DEBUG BaseClass:41 - Setting deviceName: emulator-5554
+2026-02-05 14:29:29 DEBUG BaseClass:44 - Setting application path
+2026-02-05 14:29:29 DEBUG BaseClass:48 - Initializing AndroidDriver
+2026-02-05 14:29:48 DEBUG BaseClass:54 - Setting implicit wait
+2026-02-05 14:29:48 DEBUG BaseClass:57 - AndroidDriver initialized successfully
+2026-02-05 14:29:48 DEBUG BaseClass:72 - ========== Appium Configuration Completed ==========
+2026-02-05 14:29:48 DEBUG LaunchApp:18 - ========== LaunchApp Test Started ==========
+2026-02-05 14:29:48 DEBUG LaunchApp:21 - Initializing HomePage object
+2026-02-05 14:29:49 DEBUG LaunchApp:24 - Verifying Home Page
+2026-02-05 14:29:52 DEBUG LaunchApp:26 - Home Page verification result: Enter name here
+2026-02-05 14:29:52 DEBUG LaunchApp:31 - Assertion Passed: Home page launched successfully
+2026-02-05 14:29:52 DEBUG LaunchApp:42 - ========== LaunchApp Test Completed ==========
+2026-02-05 14:29:52 DEBUG BaseClass:77 - ========== Tear Down Started ==========
+2026-02-05 14:29:52 DEBUG BaseClass:81 - Quitting AndroidDriver
+2026-02-05 14:29:53 DEBUG BaseClass:88 - ========== Tear Down Completed ==========
+2026-02-05 14:29:53 DEBUG BaseClass:32 - ========== Appium Configuration Started ==========
+2026-02-05 14:29:53 DEBUG BaseClass:35 - Setting UiAutomator2Options
+2026-02-05 14:29:53 DEBUG BaseClass:38 - Setting systemPort: 8201
+2026-02-05 14:29:53 DEBUG BaseClass:41 - Setting deviceName: emulator-5554
+2026-02-05 14:29:53 DEBUG BaseClass:44 - Setting application path
+2026-02-05 14:29:53 DEBUG BaseClass:48 - Initializing AndroidDriver
+2026-02-05 14:30:05 DEBUG BaseClass:54 - Setting implicit wait
+2026-02-05 14:30:05 DEBUG BaseClass:57 - AndroidDriver initialized successfully
+2026-02-05 14:30:05 DEBUG BaseClass:72 - ========== Appium Configuration Completed ==========
+2026-02-05 14:30:05 DEBUG LetsShop:20 - ========== LetsShop Test Started ==========
+2026-02-05 14:30:05 DEBUG LetsShop:23 - Initializing HomePage
+2026-02-05 14:30:05 DEBUG LetsShop:26 - Entering name on Home Page
+2026-02-05 14:30:10 DEBUG LetsShop:29 - Clicking on 'Let's Shop' button
+2026-02-05 14:30:10 DEBUG LetsShop:32 - Initializing ProductPage
+2026-02-05 14:30:11 DEBUG LetsShop:35 - Fetching Product Page title
+2026-02-05 14:30:12 DEBUG LetsShop:37 - Product Page title received: Products
+2026-02-05 14:30:12 DEBUG LetsShop:42 - Assertion Passed: Product page launched successfully
+2026-02-05 14:30:12 DEBUG LetsShop:53 - ========== LetsShop Test Completed ==========
+2026-02-05 14:30:12 DEBUG BaseClass:77 - ========== Tear Down Started ==========
+2026-02-05 14:30:12 DEBUG BaseClass:81 - Quitting AndroidDriver
+2026-02-05 14:30:14 DEBUG BaseClass:88 - ========== Tear Down Completed ==========
+2026-02-05 14:30:14 DEBUG BaseClass:32 - ========== Appium Configuration Started ==========
+2026-02-05 14:30:14 DEBUG BaseClass:35 - Setting UiAutomator2Options
+2026-02-05 14:30:14 DEBUG BaseClass:38 - Setting systemPort: 8201
+2026-02-05 14:30:14 DEBUG BaseClass:41 - Setting deviceName: emulator-5554
+2026-02-05 14:30:14 DEBUG BaseClass:44 - Setting application path
+2026-02-05 14:30:14 DEBUG BaseClass:48 - Initializing AndroidDriver
+2026-02-05 14:30:27 DEBUG BaseClass:54 - Setting implicit wait
+2026-02-05 14:30:27 DEBUG BaseClass:57 - AndroidDriver initialized successfully
+2026-02-05 14:30:27 DEBUG BaseClass:72 - ========== Appium Configuration Completed ==========
+2026-02-05 14:30:27 DEBUG CompletePurchase:24 - ========== completePurchaseTest Started ==========
+2026-02-05 14:30:27 DEBUG CompletePurchase:27 - Initializing HomePage
+2026-02-05 14:30:27 DEBUG CompletePurchase:30 - Entering user name
+2026-02-05 14:30:32 DEBUG CompletePurchase:33 - Clicking on 'Let's Shop' button
+2026-02-05 14:30:34 DEBUG CompletePurchase:36 - Initializing ProductPage
+2026-02-05 14:30:34 DEBUG CompletePurchase:39 - Scrolling to product: Jordan 6 Rings
+2026-02-05 14:30:44 DEBUG CompletePurchase:42 - Adding product to cart
+2026-02-05 14:30:46 DEBUG CompletePurchase:45 - Navigating to Cart page
+2026-02-05 14:30:46 DEBUG CompletePurchase:48 - Initializing CartPage
+2026-02-05 14:30:46 DEBUG CompletePurchase:51 - Clicking Terms & Conditions checkbox
+2026-02-05 14:30:49 DEBUG CompletePurchase:54 - Clicking on 'Visit to Web' button
+2026-02-05 14:30:50 DEBUG CompletePurchase:57 - Waiting for WebView to load
+2026-02-05 14:31:20 DEBUG CompletePurchase:60 - Initializing FinalPurchasePage
+2026-02-05 14:31:21 DEBUG CompletePurchase:63 - Fetching available contexts
+2026-02-05 14:31:24 DEBUG CompletePurchase:67 - Available context: NATIVE_APP
+2026-02-05 14:31:24 DEBUG CompletePurchase:72 - Switching to WEBVIEW
+2026-02-05 14:31:27 ERROR CompletePurchase:76 - Failed to switch to WEBVIEW
+io.appium.java_client.NoSuchContextException: No such context found.
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [af4480f8-ceeb-4ed3-8d11-aa55196337d3, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: C:\Users\anu11\myeclipse-wo..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\anu11\myeclipse-wo..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 136, appium:systemPort: 8201, appium:takesScreenshot: true, appium:viewportRect: {height: 2264, left: 0, top: 136, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: af4480f8-ceeb-4ed3-8d11-aa55196337d3
+	at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:47)
+	at pageObjects.BasePage.switchContext(BasePage.java:62)
+	at testCases.CompletePurchase.completePurchaseTest(CompletePurchase.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.WebDriverException: No such context found.
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [af4480f8-ceeb-4ed3-8d11-aa55196337d3, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: C:\Users\anu11\myeclipse-wo..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\anu11\myeclipse-wo..., automationName: UIAutomator2, deviceName: emulator-5554, platformName: ANDROID, systemPort: 8201}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 136, appium:systemPort: 8201, appium:takesScreenshot: true, appium:viewportRect: {height: 2264, left: 0, top: 136, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: af4480f8-ceeb-4ed3-8d11-aa55196337d3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:225)
+	at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:44)
+	... 22 more
+2026-02-05 14:31:27 WARN  RetryAnalyzer:18 - Retrying test 'completePurchaseTest' (1 of 2)
+2026-02-05 14:31:27 DEBUG CompletePurchase:24 - ========== completePurchaseTest Started ==========
+2026-02-05 14:31:27 DEBUG CompletePurchase:27 - Initializing HomePage
+2026-02-05 14:31:27 DEBUG CompletePurchase:30 - Entering user name
+2026-02-05 14:31:37 ERROR CompletePurchase:97 - Unexpected exception occurred in completePurchaseTest
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:74)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$O1OGpZ7l.sendKeys(Unknown Source)
+	at pageObjects.HomePage.enterName(HomePage.java:52)
+	at testCases.CompletePurchase.completePurchaseTest(CompletePurchase.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@55ce171b
+(tried for 10 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:276)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	... 25 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:207)
+	... 27 more
+2026-02-05 14:31:37 WARN  RetryAnalyzer:18 - Retrying test 'completePurchaseTest' (2 of 2)
+2026-02-05 14:31:37 DEBUG CompletePurchase:24 - ========== completePurchaseTest Started ==========
+2026-02-05 14:31:37 DEBUG CompletePurchase:27 - Initializing HomePage
+2026-02-05 14:31:37 DEBUG CompletePurchase:30 - Entering user name
+2026-02-05 14:31:47 ERROR CompletePurchase:97 - Unexpected exception occurred in completePurchaseTest
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:74)
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$O1OGpZ7l.sendKeys(Unknown Source)
+	at pageObjects.HomePage.enterName(HomePage.java:52)
+	at testCases.CompletePurchase.completePurchaseTest(CompletePurchase.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@25a95409
+(tried for 10 seconds with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:276)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+	... 25 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: com.androidsample.generalstore:id/nameField})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:140)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:207)
+	... 27 more
+2026-02-05 14:31:47 DEBUG BaseClass:94 - Capturing screenshot for test: completePurchaseTest
+2026-02-05 14:31:47 ERROR BaseClass:112 - Failed to capture screenshot for test: completePurchaseTest
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+	at testBase.BaseClass.captureScreen(BaseClass.java:100)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:78)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-05 14:31:47 DEBUG BaseClass:94 - Capturing screenshot for test: completePurchaseTest
+2026-02-05 14:31:47 ERROR BaseClass:112 - Failed to capture screenshot for test: completePurchaseTest
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+	at testBase.BaseClass.captureScreen(BaseClass.java:100)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:78)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1013)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-05 14:31:47 DEBUG BaseClass:77 - ========== Tear Down Started ==========
+2026-02-05 14:31:47 DEBUG BaseClass:81 - Quitting AndroidDriver
+2026-02-05 14:31:48 DEBUG BaseClass:88 - ========== Tear Down Completed ==========

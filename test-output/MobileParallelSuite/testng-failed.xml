@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [MobileParallelSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="AndroidDevice2Test(failed)">
+    <parameter name="deviceName" value="emulator-5554"/>
+    <parameter name="systemPort" value="8201"/>
+    <classes>
+      <class name="testCases.LetsShop">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="LetsShopTest"/>
+        </methods>
+      </class> <!-- testCases.LetsShop -->
+      <class name="testCases.ShopSelectingUnitedStates">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="ShopSelectingUnitedStatesTest"/>
+        </methods>
+      </class> <!-- testCases.ShopSelectingUnitedStates -->
+      <class name="testCases.TermsAndConditions">
+        <methods>
+          <include name="TermsAndConditionsTest"/>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- testCases.TermsAndConditions -->
+      <class name="testCases.LaunchApp">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LaunchAppTest"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- testCases.LaunchApp -->
+      <class name="testCases.ValidateToastMessage">
+        <methods>
+          <include name="ValidateToastMessageTest"/>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- testCases.ValidateToastMessage -->
+      <class name="testCases.CompletePurchase">
+        <methods>
+          <include name="CompletePurchaseTest"/>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- testCases.CompletePurchase -->
+      <class name="testCases.AddToCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="AddToCartTest"/>
+        </methods>
+      </class> <!-- testCases.AddToCart -->
+    </classes>
+  </test> <!-- AndroidDevice2Test(failed) -->
+  <test thread-count="2" parallel="tests" name="AndroidDevice1Test(failed)">
+    <parameter name="deviceName" value="emulator-5556"/>
+    <parameter name="systemPort" value="8200"/>
+    <classes>
+      <class name="testCases.LetsShop">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="LetsShopTest"/>
+        </methods>
+      </class> <!-- testCases.LetsShop -->
+      <class name="testCases.ShopSelectingUnitedStates">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="ShopSelectingUnitedStatesTest"/>
+        </methods>
+      </class> <!-- testCases.ShopSelectingUnitedStates -->
+      <class name="testCases.TermsAndConditions">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TermsAndConditionsTest"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- testCases.TermsAndConditions -->
+      <class name="testCases.LaunchApp">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LaunchAppTest"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- testCases.LaunchApp -->
+      <class name="testCases.ValidateToastMessage">
+        <methods>
+          <include name="ValidateToastMessageTest"/>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- testCases.ValidateToastMessage -->
+      <class name="testCases.CompletePurchase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CompletePurchaseTest"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- testCases.CompletePurchase -->
+      <class name="testCases.AddToCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="AddToCartTest"/>
+        </methods>
+      </class> <!-- testCases.AddToCart -->
+    </classes>
+  </test> <!-- AndroidDevice1Test(failed) -->
+</suite> <!-- Failed suite [MobileParallelSuite] -->
